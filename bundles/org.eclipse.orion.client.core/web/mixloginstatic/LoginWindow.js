@@ -267,7 +267,7 @@ define(['domReady', 'orion/xhr', 'orion/PageUtil', 'persona/include'], function(
 
 	function confirmLogin(login, password) {
 		if (!login) {
-			login = document.getElementById('login').value;
+			login = document.getElementById('login').value.replace(/\s/g, "");
 			password = document.getElementById('password').value;
 		}
 		
