@@ -742,7 +742,8 @@ function(messages, mUndoStack, mKeyBinding, mRulers, mAnnotations, mTooltip, mTe
 			return false;
 		},
 		enter: function() {
-			return false;
+			this.toggleIncrementalFind();
+			return true;
 		}
 	};
 	
