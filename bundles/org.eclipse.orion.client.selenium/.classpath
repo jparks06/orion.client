@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/selenium-java-2.25.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/selenium-server-standalone-2.26.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/selenium-server-coreless-1.0-20081010.060147.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/selenium-firefox-driver-2.25.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
