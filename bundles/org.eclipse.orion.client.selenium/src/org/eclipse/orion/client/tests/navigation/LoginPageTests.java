@@ -10,6 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * @author jParks
@@ -30,7 +32,8 @@ public class LoginPageTests {
 
 	@Test
 	public void testPageExists() {
-		assertTrue(driver.getTitle().contains("Login Page"));
+		(new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(loginPage.orionAccountLoginButton));
+		assertTrue(driver.getTitle().contains(LoginPage.LOGIN_PAGE_TITLE));
 	}
 
 	@Test

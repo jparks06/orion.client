@@ -8,9 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends PageObject {
 
 	public static final String LOGIN_HOME_URL = "http://localhost:8080";
+	public static final String LOGIN_PAGE_TITLE = "Login Page";
 
 	@FindBy(id = "orionLogin")
-	WebElement orionAccountLoginButton;
+	public WebElement orionAccountLoginButton;
 	@FindBy(id = "login")
 	WebElement usernameField;
 	@FindBy(id = "password")
