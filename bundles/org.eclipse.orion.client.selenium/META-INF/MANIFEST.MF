@@ -2,5 +2,8 @@ Bundle-SymbolicName: org.eclipse.orion.client.selenium
 Bundle-ClassPath: lib/selenium-firefox-driver-2.25.0.jar,
  lib/selenium-server-coreless-1.0-20081010.060147.jar,
  lib/selenium-java-2.25.0.jar,
- lib/selenium-server-standalone-2.26.0.jar
+ lib/selenium-server-standalone-2.26.0.jar,
+ lib/slf4j-api-1.7.2.jar,
+ lib/slf4j-simple-1.7.2.jar,
+ lib/log4j-1.2.17.jar
 

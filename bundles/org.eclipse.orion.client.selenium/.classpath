@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-simple-1.7.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/selenium-java-2.25.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/selenium-server-standalone-2.26.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/selenium-server-coreless-1.0-20081010.060147.jar"/>
