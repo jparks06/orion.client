@@ -1,0 +1,21 @@
+<configuration>
+  <!-- See documentation at http://logback.qos.ch/manual/joran.html -->
+ 
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+	   <file>H:\Tools\eclipseSDK\eclipse\testlog.txt</file>
+	   <append>true</append>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+	     <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+		</layout>
+  </appender>
+
+<logger name="test" level="INFO" additivity="false">
+	<appender-ref ref="FILE" /> 
+</logger>
+
+  <root level="DEBUG">
+    <appender-ref ref="FILE" />
+  </root>
+ 
+  
+</configuration>

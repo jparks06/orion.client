@@ -8,6 +8,7 @@ import org.eclipse.orion.client.navigation.LoginPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -38,10 +39,25 @@ public class LoginPageTests {
 
 	@Test
 	public void testValidLogin() {
+	//	loginPage.selectOrionAccountLogin();
 		loginPage.orionAccountLogin("jparks", "pass");
+		(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.id("home")));
 		assertTrue(driver.getTitle().contains("Navigator"));
 	}
 
+	@Test
+	public void testRegisterUser(){
+		loginPage.registerUser("test", "password", "test@test.com");
+		assertTrue(driver.getTitle().contains("Navigator"));
+	}
+	
+	@Test
+	public void deleteUser(){
+		loginPage.orionAccountLogin("admin", "password");
+		loginPage.deleteUser("test");
+		assertTrue(driver.getTitle().contains("User Profile"));	
+	}
+	
 	@After
 	public void tearDown() throws Exception {
 		driver.quit();
