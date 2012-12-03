@@ -1,9 +1,12 @@
 package org.eclipse.orion.client.navigation;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends PageObject {
 
@@ -28,11 +31,8 @@ public class LoginPage extends PageObject {
 		return PageFactory.initElements(driver, LoginPage.class);
 	}
 
-	public void selectOrionAccountLogin() {
+	public void orionAccountLogin(String username, String password) {
 		orionAccountLoginButton.click();
-	}
-
-	public void login(String username, String password) {
 		usernameField.clear();
 		passwordField.clear();
 
@@ -40,6 +40,7 @@ public class LoginPage extends PageObject {
 		passwordField.sendKeys(password);
 
 		loginFormSubmitButton.click();
+		
+		new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.id("home")));
 	}
-
 }

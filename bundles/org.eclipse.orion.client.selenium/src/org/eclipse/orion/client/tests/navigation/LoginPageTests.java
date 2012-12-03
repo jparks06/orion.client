@@ -38,8 +38,7 @@ public class LoginPageTests {
 
 	@Test
 	public void testValidLogin() {
-		loginPage.selectOrionAccountLogin();
-		loginPage.login("jparks", "pass");
+		loginPage.orionAccountLogin("jparks", "pass");
 		assertTrue(driver.getTitle().contains("Navigator"));
 	}
 
