@@ -1,0 +1,90 @@
+-=-=-Representation of navigation and test groups-=-=-
+
+|-- Home Page
+	|
+	+-- Navigator (../navigate/table.html)
+	|	|
+	|	+-- Favorites
+	|	|
+	|	+-- Create New Content
+	|	|
+	|	+-- File Explorer
+	|	|
+	|	+-- 
+	|
+	+-- Sites (.../sites/sites.html)
+	|	|
+	|	+-- create site
+	|	|
+	|	+-- //other stuff you can do on the sites page
+	|
+	+-- Repositories (../git/git-repository.html)
+	|	|
+	|	+-- //other stuff you can do on the repositories page
+	|
+	+-- Shell (../shell/shellPage.html)
+	|	|
+	|	+-- //other stuff you can do on the shell page
+	|
+	+-- Get Plugins (mamacdon.github.com)
+		|
+		+-- //other stuff you can do on the get plugins page 
+		
+
+
+THERE IS NOTHING BELOW HERE!!! DON'T EVEN BOTHER!		
+
+
+
+
+		
+//\														
+V  \
+ \  \_
+  \,'.`-.
+   |\ `. `.       
+   ( \  `. `-.                        _,.-:\
+    \ \   `.  `-._             __..--' ,-';/
+     \ `.   `-.   `-..___..---'   _.--' ,'/
+      `. `.    `-._        __..--'    ,' /
+        `. `-_     ``--..''       _.-' ,'
+          `-_ `-.___        __,--'   ,'
+             `-.__  `----"""    __.-'
+ banana           `--..____..--'
+
+      [_I_I[L]=_I_I_]
+      /     | :     \
+      |    /|  \    |
+      |   | '-  |   |
+       \  | /^\ |  /
+       |  | | | |  |
+       |  | | | |  |
+       |  | | | |  |
+       \  | | | |  /
+       / -|-| |-|- \
+       |  | | | |  |
+       |  | | | |  |
+       |  | | | |  |
+       |__|_| |_|__|
+       [____] [____]
+pants
+
+
+                    .------,
+      .\/.          |______|
+    _\_}{_/_       _|_Ll___|_
+     / }{ \       [__________]          .\/.
+      '/\'        /          \        _\_\/_/_
+                 ()  o  o    ()        / /\ \
+                  \ ~~~   .  /          '/\'
+             _\/   \ '...'  /    \/_
+              \\   {`------'}    //
+               \\  /`---/',`\\  //
+                \/'  o  | |\ \`//
+                /'      | | \/ /\
+   __,. -- ~~ ~|    o   `\|      |~ ~~ -- . __
+               |                 |
+               \    o            /
+                `._           _.'
+                   ^~- . -  ~^ 
+winner		
